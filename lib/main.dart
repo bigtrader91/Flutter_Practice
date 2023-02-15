@@ -10,35 +10,6 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-        theme: ThemeData(
-          colorScheme: ColorScheme.fromSwatch(
-            cardColor: const Color.fromARGB(214, 218, 213, 145),
-            backgroundColor: const Color(0xFFE7626C),
-          ),
-          textTheme: const TextTheme(
-            titleLarge: TextStyle(
-              color: Colors.red,
-            ),
-          ),
-        ),
-        home: const HomeScreen());
-  }
-}
-
-class MyLargeTitle extends StatelessWidget {
-  const MyLargeTitle({
-    Key? key,
-  }) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Text(
-      'My Large Title',
-      style: TextStyle(
-        fontSize: 30,
-        color: Theme.of(context).textTheme.titleLarge?.color,
-      ),
-    );
+    return const MaterialApp(home: HomeScreen());
   }
 }
