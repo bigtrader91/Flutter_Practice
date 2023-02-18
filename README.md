@@ -1,17 +1,10 @@
-# toonflix
+# Flutter Pracice
 
-A new Flutter project.
+- pomodoro app(timer)
+  - 타이머를 누르면 25분동안 시간이 흐르며 0이 된 순가 카운트 +1
+  
+- toonflix app(webtoon)
+  - main 페이지와 detail페이지로 구성되며, 웹툰api 를 통해서 데이터 전달
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# Flutter_Practice" 
